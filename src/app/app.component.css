@@ -1,0 +1,327 @@
+/*!
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+ body {
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+    padding-top: 54px !important;
+    color: #868e96 !important;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+  .navbar-toggler {
+    display: none;
+}
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    background-color: #BD5D38;
+  }
+  
+  .dev-icons {
+    font-size: 3rem;
+  }
+  
+  .dev-icons .list-inline-item i:hover {
+    color: #BD5D38;
+  }
+  
+   .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+  
+  .navbar-toggler:focus {
+    outline-color: #d48a6e;
+  }
+  
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-item {
+    display: block;
+  }
+  .nav-link {
+    display: block;
+  }
+  
+  section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+  }
+  
+  .resume-date {
+    min-width: none;
+  }
+  
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh;
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+  
+  .bg-primary {
+    background-color: #BD5D38 !important;
+  }
+  
+  .text-primary {
+    color: #BD5D38 !important;
+  }
+  
+  a {
+    color: #BD5D38;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #824027;
+  }
+  
+
+
+
+  /* vietnamese */
+@font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Saira ExtraCondensed Medium'), local('SairaExtraCondensed-Medium'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh1Aphim8.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Saira ExtraCondensed Medium'), local('SairaExtraCondensed-Medium'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh1Qphim8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Saira ExtraCondensed Medium'), local('SairaExtraCondensed-Medium'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrG2vh2wph.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Saira ExtraCondensed Bold'), local('SairaExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h1Aphim8.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Saira ExtraCondensed Bold'), local('SairaExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h1Qphim8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Saira Extra Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Saira ExtraCondensed Bold'), local('SairaExtraCondensed-Bold'), url(https://fonts.gstatic.com/s/sairaextracondensed/v5/-nFvOHYr-vcC7h8MklGBkrvmUG9rbpkisrTrU23h2wph.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+/* vietnamese */
+@font-face {
+    font-family: 'Muli';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IALT8kU.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Muli';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IQLT8kU.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Muli';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2LwLT.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Muli';
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IALT8kU.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Muli';
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2IQLT8kU.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Muli';
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Au-p_0qiz-afTf2LwLT.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/muli/v20/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+  

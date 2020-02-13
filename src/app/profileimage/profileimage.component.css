@@ -1,0 +1,56 @@
+
+
+#sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+}
+   .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-item {
+    display: block;
+  }
+  .nav-link {
+    display: block;
+  }
+  
+  .d-lg-none {
+    display: none!important;
+  }
+
+  .d-lg-block {
+    display: block!important;
+}
+
+.navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: .5rem;
+}
